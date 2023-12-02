@@ -8,13 +8,15 @@ public class Main {
         int pay = 1200;
         System.out.println("Внесенный платеж:" + pay);
         int bonus;
-        if (pay >= 1000) { bonus = pay / 100;}
-        else { bonus = 0;
+        if (pay >= 1000) {
+            bonus = pay / 100;
+        } else {
+            bonus = 0;
         }
         long FinalBalance = balance + pay + bonus;
 
         System.out.println("Итоговый бонус:" + bonus);
-        System.out.println("Итоговый счет:" +FinalBalance);
+        System.out.println("Итоговый счет:" + FinalBalance);
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
         // суммы пополнения и тп

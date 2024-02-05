@@ -18,19 +18,7 @@ public class Main {
 
         System.out.println("Итоговый бонус:" + bonus);
         System.out.println("Итоговый счет:" + FinalBalance);
-        int secondBalance = 1312;
-        System.out.println("Второй текущий баланс" + secondBalance);
-        int secondPay = 300;
-        System.out.println("Второй внесенный платеж" + secondPay);
-        int secondBonus;
-        if (secondPay >= 1000) {
-            secondBonus = secondPay / percent;
-        } else {
-            secondBonus = 0;
-        }
-        long secondFinalBalance = secondBalance + secondPay + secondBonus;
-        System.out.println("Второй итоговый бонус" + secondBonus);
-        System.out.println("Второй итоговый счёт" + secondFinalBalance);
+    
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
         // суммы пополнения и тп

@@ -14,10 +14,10 @@ public class Main {
         } else {
             bonus = 0;
         }
-        long FinalBalance = balance + pay + bonus;
+        long finalBalance = balance + pay + bonus;
 
         System.out.println("Итоговый бонус:" + bonus);
-        System.out.println("Итоговый счет:" + FinalBalance);
+        System.out.println("Итоговый счет:" + finalBalance);
     
         // Объявляете переменные для входных данных и
         // параметров программы: начального счёта,
